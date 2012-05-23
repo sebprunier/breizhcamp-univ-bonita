@@ -1,5 +1,5 @@
 /*
- * Intro slide
+ * Intro step slide
  */
 #intro {
     text-align: center;
@@ -15,4 +15,11 @@
 }
 #intro p {
     font-size: 1.2em;
+}
+
+/*
+ * Impress.js step
+ */
+#impressjs {
+    font-size: 5em;
 }

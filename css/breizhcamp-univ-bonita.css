@@ -18,6 +18,13 @@
 }
 
 /*
+ * Speakers step slides
+ */
+.speaker h1 {
+    font-size: 2em;
+}
+
+/*
  * Question steps
  */
 #impressjs q, #pomodoro  q{
@@ -44,7 +51,6 @@
     -o-transition-delay:      0.25s;
     transition-delay:         0.25s;
 }
-
 #stopslides p , #firstpomodoro p{
     font-size: 1.1em;
 	margin-bottom: 20px;

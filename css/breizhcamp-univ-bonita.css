@@ -39,10 +39,6 @@
     vertical-align: middle;
 	padding-right: 20px;
 }
-.speaker p a {
-    background: rgba(200,200,200,0.5);
-	font-size: 0.8em;
-}
 
 /*
  * Question steps
@@ -82,9 +78,27 @@
     vertical-align: middle;
 }
 /*
+ * Credits slide
+ */
+#credits h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#credits p {
+	font-size: 0.8em;
+}
+#credits img {
+    vertical-align: middle;
+}
+/*
  * Generic styles
  */
-h1.question {
+.slide a {
+    background: rgba(200,200,200,0.5);
+	font-size: 0.8em;
+}
+ h1.question {
     font-size: 2em;
 	font-weight: bold;
 	color: #003366;
@@ -98,5 +112,5 @@ h1.question {
 li {
     display : list-item;
     list-style-image : url(../img/Map-Marker-Push-Pin-1-Left-Pink-icon.png);
-} 
+}
 

@@ -21,7 +21,27 @@
  * Speakers step slides
  */
 .speaker h1 {
-    font-size: 2em;
+    font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.speaker div {
+    font-size: 1.1em;
+	margin: 40px;
+	padding: 10px;
+}
+.speaker > p {
+    font-size:1.1em;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.speaker p img {
+    vertical-align: middle;
+	padding-right: 20px;
+}
+.speaker p a {
+    background: rgba(200,200,200,0.5);
+	font-size: 0.8em;
 }
 
 /*
@@ -75,4 +95,8 @@ h1.question {
     background-position: top left;
     background-repeat: no-repeat;
 }
+li {
+    display : list-item;
+    list-style-image : url(../img/Map-Marker-Push-Pin-1-Left-Pink-icon.png);
+} 
 

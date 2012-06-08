@@ -48,10 +48,10 @@
 /*
  * Question steps
  */
-#impressjs q, #pomodoro  q{
+#impressjs q, #pomodoro  q, #play q {
     font-size: 2em;
 }
-#impressjs h1, #pomodoro h1 {
+#impressjs h1, #pomodoro h1, #play h1 {
     display: inline-block;
     -webkit-transition: 0.5s;
     -moz-transition:    0.5s;
@@ -59,7 +59,7 @@
     -o-transition:      0.5s;
     transition:         0.5s;
 }
-#impressjs.present .rotating, #pomodoro.present .rotating {
+#impressjs.present .rotating, #pomodoro.present .rotating, #play.present .rotating {
     -webkit-transform: rotate(-10deg);
     -moz-transform:    rotate(-10deg);
     -ms-transform:     rotate(-10deg);
@@ -72,7 +72,7 @@
     -o-transition-delay:      0.25s;
     transition-delay:         0.25s;
 }
-#stopslides p , #firstpomodoro p{
+#stopslides p , #firstpomodoro p, #goodies p{
     font-size: 1.1em;
 	margin-bottom: 20px;
 }
@@ -99,6 +99,10 @@
 /*
  * Generic styles
  */
+span.strike{
+    text-decoration: line-through;
+}
+ 
 .slide a {
     background: rgba(200,200,200,0.5);
 	font-size: 0.8em;

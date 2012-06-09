@@ -82,8 +82,30 @@
 #stopslides img, #firstpomodoro img{
     vertical-align: middle;
 }
+
 /*
- * Credits slide
+ * Ready ? Go ! steps
+ */
+#ready p, #go p {
+    font-size : 4em;
+}
+#go p img {
+    vertical-align: middle;
+	padding-right: 20px;
+}
+
+/*
+ * BPM steps
+ */
+#bpm p {
+    font-size: 3em;
+}
+#business p, #process p, #management p {
+    font-size: 1.5em;
+}
+
+/*
+ * Credits step
  */
 #credits h1 {
     font-size: 1.5em;

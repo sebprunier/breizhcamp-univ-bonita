@@ -137,19 +137,42 @@ h1.run {
 }
 
 /*
+ * Demo steps
+ */
+#demo h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #003366;
+}
+#demo p {
+	font-size: 2em;
+}
+#demo p > img{
+	margin-left: -230px;
+}
+#demodraw p, #democonnect p, #demorun p, #demorest p {
+	font-size: 1.5em;
+}
+
+/*
  * Credits step
  */
 #credits h1 {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 20px;
+	margin-top: 20px;
 }
-#credits p {
+#credits p, #credits td {
 	font-size: 0.8em;
+}
+#credits td {
+	text-align: center;
 }
 #credits img {
     vertical-align: middle;
 }
+
 /*
  * Generic styles
  */
@@ -189,6 +212,6 @@ li {
 }
 li.poll {
     display : list-item;
-    list-style-image : url(../img/Map-Marker-Push-Pin-1-Left-Azure-icon.png);
+    list-style-image : url(../img/Map-Marker-Push-Pin-1-Left-Chartreuse-icon.png);
 }
 

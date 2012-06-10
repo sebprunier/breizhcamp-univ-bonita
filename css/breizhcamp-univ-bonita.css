@@ -51,7 +51,7 @@
 #impressjs q, #pomodoro  q, #play q {
     font-size: 2em;
 }
-#impressjs h1, #pomodoro h1, #play h1 {
+#impressjs h1, #pomodoro h1, #play h1, #poll h1 {
     display: inline-block;
     -webkit-transition: 0.5s;
     -moz-transition:    0.5s;
@@ -59,7 +59,7 @@
     -o-transition:      0.5s;
     transition:         0.5s;
 }
-#impressjs.present .rotating, #pomodoro.present .rotating, #play.present .rotating {
+#impressjs.present .rotating, #pomodoro.present .rotating, #play.present .rotating,  #poll.present .rotating  {
     -webkit-transform: rotate(-10deg);
     -moz-transform:    rotate(-10deg);
     -ms-transform:     rotate(-10deg);
@@ -105,6 +105,38 @@
 }
 
 /*
+ * Bonita steps
+ */
+#poll p {
+	font-size: 2em;
+}
+#bos5 p {
+    text-align: center;
+}
+#draw h1, #connect h1, #run h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+	height: 80px;
+	text-indent: 150px;
+	padding-bottom: 50px;
+}
+h1.draw {
+    background-image: url(../img/Nuvola_apps_kedit.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+h1.connect {
+    background-image: url(../img/Nuvola_apps_usb.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+h1.run {
+    background-image: url(../img/Nuvola_apps_kservices.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+/*
  * Credits step
  */
 #credits h1 {
@@ -124,24 +156,39 @@
 span.strike{
     text-decoration: line-through;
 }
- 
+.bigred {
+	font-weight: bold;
+	color: #BB0000;
+}
 .slide a {
     background: rgba(200,200,200,0.5);
 	font-size: 0.8em;
 }
- h1.question {
+h1.question, h1.poll {
     font-size: 2em;
 	font-weight: bold;
 	color: #003366;
 	height: 80px;
 	text-indent: 150px;
 	padding-bottom: 120px;
+}
+h1.question {
     background-image: url(../img/Nuvola_apps_kmix.png);
     background-position: top left;
     background-repeat: no-repeat;
 }
+h1.poll {
+	background-image: url(../img/Nuvola_apps_kcmpartitions.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
 li {
     display : list-item;
     list-style-image : url(../img/Map-Marker-Push-Pin-1-Left-Pink-icon.png);
+}
+li.poll {
+    display : list-item;
+    list-style-image : url(../img/Map-Marker-Push-Pin-1-Left-Azure-icon.png);
 }
 

@@ -254,5 +254,38 @@
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
 
+<!-- Twitter widget-->
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: 'breizhcamp',
+  interval: 5000,
+  title: '',
+  subject: '',
+  width: 1200,
+  height: 25,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+
+
 </body>
 </html>

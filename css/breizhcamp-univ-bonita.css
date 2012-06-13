@@ -215,3 +215,12 @@ li.poll {
     list-style-image : url(../img/Map-Marker-Push-Pin-1-Left-Chartreuse-icon.png);
 }
 
+/*
+ * Twitter widget
+ */
+div.twtr-hd, div.twtr-ft {
+    display: none;
+}
+div.twtr-timeline {
+    height: 50px !important;
+}
